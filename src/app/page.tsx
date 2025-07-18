@@ -3,6 +3,7 @@ import Partners from '@/components/autoSlider/AutoSlider';
 import ServicesSection from '@/components/servicesSection/ServicesSection';
 import { Suspense } from 'react';
 import  News  from '@/components/news/News'
+import Footer from '@/components/footer/Footer'
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
        <Partners />
        <ServicesSection />
        <News />
+       <Footer />
     </Suspense>
     </>
   );

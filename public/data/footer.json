@@ -1,0 +1,48 @@
+{
+  "en": {
+    "title": "Welcome to Cyprus",
+    "description": "Discover the best of Cyprus.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "email": "Email",
+    "phone": "Phone",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved."
+  },
+  "el": {
+    "title": "Καλώς ήρθατε στην Κύπρο",
+    "description": "Ανακαλύψτε τα καλύτερα της Κύπρου.",
+    "quickLinks": "Γρήγοροι Σύνδεσμοι",
+    "home": "Αρχική",
+    "services": "Υπηρεσίες",
+    "about": "Σχετικά",
+    "contact": "Επικοινωνία",
+    "blog": "Ιστολόγιο",
+    "email": "Ηλεκτρονικό ταχυδρομείο",
+    "phone": "Τηλέφωνο",
+    "followUs": "Ακολουθήστε μας",
+    "copyright": "Όλα τα δικαιώματα διατηρούνται."
+  },
+  "ru": {
+    "title": "Добро пожаловать на Кипр",
+    "description": "Откройте для себя лучшее на Кипре.",
+    "quickLinks": "Быстрые ссылки",
+    "home": "Главная",
+    "services": "Услуги",
+    "about": "О нас",
+    "contact": "Контакты",
+    "blog": "Блог",
+    "email": "Электронная почта",
+    "phone": "Телефон",
+    "followUs": "Подписывайтесь на нас",
+    "copyright": "Все права защищены."
+  }
+}
+
+
+
+

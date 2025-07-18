@@ -52,3 +52,17 @@ export interface NewsItem {
   title: string;
   text: string;
 }
+
+export interface FooterTranslation {
+  title: string;
+  description: string;
+  quickLinks: string;
+  home: string;
+  services: string;
+  about: string;
+  contact: string;
+  email: string;
+  phone: string;
+  followUs: string;
+  copyright: string;
+}

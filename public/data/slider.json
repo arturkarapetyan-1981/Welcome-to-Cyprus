@@ -1,0 +1,25 @@
+{
+  "images": [
+    { "id": 1, "image": "/slider/slider-1.jpg", "alt": "Cyprus image 1" },
+    { "id": 2, "image": "/slider/slider-2.jpg", "alt": "Cyprus image 2" },
+    { "id": 3, "image": "/slider/slider-3.jpg", "alt": "Cyprus image 3" },
+    { "id": 4, "image": "/slider/slider-4.jpg", "alt": "Cyprus image 4" },
+    { "id": 5, "image": "/slider/slider-5.jpg", "alt": "Cyprus image 5" },
+    { "id": 6, "image": "/slider/slider-6.jpg", "alt": "Cyprus image 6" },
+    { "id": 7, "image": "/slider/slider-7.jpg", "alt": "Cyprus image 7" },
+    { "id": 8, "image": "/slider/slider-8.jpg", "alt": "Cyprus image 8" },
+    { "id": 9, "image": "/slider/slider-9.jpg", "alt": "Cyprus image 9" },
+    { "id": 10, "image": "/slider/slider-10.jpg", "alt": "Cyprus image 10" },
+    { "id": 11, "image": "/slider/slider-11.jpg", "alt": "Cyprus image 11" },
+    { "id": 12, "image": "/slider/slider-12.jpg", "alt": "Cyprus image 12" },
+    { "id": 13, "image": "/slider/slider-13.jpg", "alt": "Cyprus image 13" },
+    { "id": 14, "image": "/slider/slider-14.jpg", "alt": "Cyprus image 14" },
+    { "id": 15, "image": "/slider/slider-15.jpg", "alt": "Cyprus image 15" },
+    { "id": 16, "image": "/slider/slider-16.jpg", "alt": "Cyprus image 16" },
+    { "id": 17, "image": "/slider/slider-17.jpg", "alt": "Cyprus image 17" },
+    { "id": 18, "image": "/slider/slider-18.jpg", "alt": "Cyprus image 18" },
+    { "id": 19, "image": "/slider/slider-19.jpg", "alt": "Cyprus image 19"},
+    { "id": 20, "image": "/slider/slider-20.jpg", "alt": "Cyprus image 20" },
+    { "id": 21, "image": "/slider/slider-21.jpg", "alt": "Cyprus image 21" }
+  ]
+}

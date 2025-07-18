@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --black: #3B505A;
+  --mid-teal: #00776f;
+  --mid-teal-hover: #19847d;
+  --light-teal: #1ec8c8;
+  --orange: #ff6c10;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+

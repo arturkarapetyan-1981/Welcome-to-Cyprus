@@ -1,0 +1,248 @@
+{
+  "en": [
+    {
+      "title": "Travels & Tours",
+      "description": "Explore the beauty of Cyprus with our professional Travels & Tours services. From stunning beaches and ancient ruins to charming villages and mountain adventures, we offer customized travel packages, guided tours, and full travel support across the island. Discover Cyprus your way — comfortably, safely, and memorably.",
+      "href": "/services/travelsTours?lang=en",
+      "icon": "🧭",
+      "providers": [
+        "Global Explorer Co.",
+        "Wanderlust Tours",
+        "Nomadic Paths",
+        "SkyHigh Adventures",
+        "Oceanic Journeys"
+      ]
+    },
+    {
+      "title": "Hotel Reservation",
+      "description": "Find the perfect stay in Cyprus with our hotel reservation service. From luxury resorts to cozy boutique hotels and budget-friendly accommodations, we help you book the ideal place that fits your needs and preferences. Easy booking, competitive rates, and support every step of the way — your stay in Cyprus starts here.",
+      "href": "/services/hotelReservation?lang=en",
+      "icon": "🏨",
+      "providers": [
+        "StayWell Hotels",
+        "Royal Comfort Inns",
+        "Global Suites",
+        "City Central Hotel",
+        "Elite Stay Group"
+      ]
+    },
+    {
+      "title": "Car Rentals",
+      "description": "Discover Cyprus at your own pace with our reliable car rental service. Choose from a wide range of vehicles — from compact cars to SUVs — all at affordable rates. Whether for leisure or business, enjoy flexible rental terms, 24/7 support, and convenient pick-up locations across the island.",
+      "href": "/services/carRentals?lang=en",
+      "icon": "🚗",
+      "providers": [
+        "DriveNow Rentals",
+        "AutoFlex Ltd.",
+        "Zoomy Car Hire",
+        "RapidDrive Services",
+        "CityWheel Rent"
+      ]
+    },
+    {
+      "title": "Beauty Salon Booking",
+      "description": "Book your beauty treatments easily with our salon booking service in Cyprus. From haircuts and styling to manicures, facials, and spa services — we connect you with top-rated salons across the island. Enjoy professional care, flexible appointments, and a relaxing beauty experience, just a few clicks away.",
+      "href": "/services/beautySalonBooking?lang=en",
+      "icon": "💇‍♀️",
+      "providers": [
+        "Luxe Beauty Lounge",
+        "Glamour Touch",
+        "Style & Shine Studio",
+        "UrbanGlow Salon",
+        "Bella Chic Spa"
+      ]
+    },
+    {
+      "title": "Tour Guide Booking",
+      "description": "Discover the hidden gems of Cyprus with our professional tour guide booking service. Whether you're interested in historical landmarks, cultural experiences, or scenic nature walks, we connect you with experienced local guides for unforgettable, informative, and personalized tours across the island.",
+      "href": "/services/tourGuideBooking?lang=en",
+      "icon": "🗺️",
+      "providers": [
+        "ExploreMore Guides",
+        "CityPulse Tours",
+        "Heritage Walk Co.",
+        "WanderWise",
+        "EchoTrail Guides"
+      ]
+    },
+    {
+      "title": "Restaurant Table Booking",
+      "description": "Reserve your table at the best restaurants in Cyprus with ease. Whether you're planning a romantic dinner, a family meal, or a business lunch, our restaurant booking service connects you with top-rated venues across the island. Enjoy diverse cuisines, perfect ambiance, and hassle-free reservations in just a few clicks.",
+      "href": "/services/restaurantBooking?lang=en",
+      "icon": "🍽️",
+      "providers": [
+        "Gourmet Bistro",
+        "La Tavola",
+        "The Spicy Spoon",
+        "UrbanFeast",
+        "Tandoori Table"
+      ]
+    }
+  ],
+  "gr": [
+    {
+      "title": "Ταξίδια & Περιηγήσεις",
+      "description": "Εξερευνήστε την ομορφιά της Κύπρου με τις επαγγελματικές υπηρεσίες Travels & Tours. Από υπέροχες παραλίες και αρχαιολογικούς χώρους έως γραφικά χωριά και ορεινές περιπέτειες, προσφέρουμε εξατομικευμένα πακέτα, ξεναγήσεις και πλήρη ταξιδιωτική υποστήριξη σε όλο το νησί. Ανακαλύψτε την Κύπρο με άνεση, ασφάλεια και αξέχαστες εμπειρίες.",
+      "href": "/services/travelsTours?lang=gr",
+      "icon": "🧭",
+      "providers": [
+        "Global Explorer Co.",
+        "Wanderlust Tours",
+        "Nomadic Paths",
+        "SkyHigh Adventures",
+        "Oceanic Journeys"
+      ]
+    },
+    {
+      "title": "Κράτηση Ξενοδοχείου",
+      "description": "Βρείτε την ιδανική διαμονή στην Κύπρο με την υπηρεσία κρατήσεων ξενοδοχείων μας. Από πολυτελή θέρετρα μέχρι ζεστά boutique ξενοδοχεία και οικονομικές επιλογές, σας βοηθάμε να κάνετε κράτηση στο κατάλληλο μέρος για εσάς. Εύκολη διαδικασία, ανταγωνιστικές τιμές και υποστήριξη σε κάθε βήμα — η διαμονή σας στην Κύπρο ξεκινά από εδώ.",
+      "href": "/services/hotelReservation?lang=gr",
+      "icon": "🏨",
+      "providers": [
+        "StayWell Hotels",
+        "Royal Comfort Inns",
+        "Global Suites",
+        "City Central Hotel",
+        "Elite Stay Group"
+      ]
+    },
+    {
+      "title": "Ενοικίαση Αυτοκινήτων",
+      "description": "Ανακαλύψτε την Κύπρο με τον δικό σας ρυθμό μέσα από την αξιόπιστη υπηρεσία ενοικίασης αυτοκινήτων μας. Επιλέξτε από μια μεγάλη γκάμα οχημάτων — από μικρά αυτοκίνητα έως SUV — σε προσιτές τιμές. Για αναψυχή ή επαγγελματικό ταξίδι, απολαύστε ευέλικτους όρους ενοικίασης, υποστήριξη 24/7 και εύκολα σημεία παραλαβής σε όλο το νησί.",
+      "href": "/services/carRentals?lang=gr",
+      "icon": "🚗",
+      "providers": [
+        "DriveNow Rentals",
+        "AutoFlex Ltd.",
+        "Zoomy Car Hire",
+        "RapidDrive Services",
+        "CityWheel Rent"
+      ]
+    },
+    {
+      "title": "Ραντεβού σε Σαλόνι Ομορφιάς",
+      "description": "Κλείστε ραντεβού για τις αγαπημένες σας υπηρεσίες ομορφιάς εύκολα με την υπηρεσία κρατήσεων salon στην Κύπρο. Από κούρεμα και χτένισμα έως μανικιούρ, περιποίηση προσώπου και spa — σας συνδέουμε με κορυφαία σαλόνια σε όλο το νησί. Επαγγελματική φροντίδα, ευέλικτα ραντεβού και μια χαλαρωτική εμπειρία ομορφιάς με λίγα μόνο κλικ.",
+      "href": "/services/beautySalonBooking?lang=gr",
+      "icon": "💇‍♀️",
+      "providers": [
+        "Luxe Beauty Lounge",
+        "Glamour Touch",
+        "Style & Shine Studio",
+        "UrbanGlow Salon",
+        "Bella Chic Spa"
+      ]
+    },
+    {
+      "title": "Κράτηση Ξεναγού",
+      "description": "Ανακαλύψτε τα κρυμμένα διαμάντια της Κύπρου με την υπηρεσία κράτησης ξεναγών μας. Είτε σας ενδιαφέρουν ιστορικά μνημεία, πολιτιστικές εμπειρίες ή φυσικές διαδρομές, σας συνδέουμε με έμπειρους τοπικούς ξεναγούς για αξέχαστες, ενημερωτικές και εξατομικευμένες ξεναγήσεις σε όλο το νησί.",
+      "href": "/services/tourGuideBooking?lang=gr",
+      "icon": "🗺️",
+      "providers": [
+        "ExploreMore Guides",
+        "CityPulse Tours",
+        "Heritage Walk Co.",
+        "WanderWise",
+        "EchoTrail Guides"
+      ]
+    },
+    {
+      "title": "Κράτηση Τραπεζιού",
+      "description": "Κάντε κράτηση τραπεζιού στα καλύτερα εστιατόρια της Κύπρου εύκολα και γρήγορα. Είτε πρόκειται για ρομαντικό δείπνο, οικογενειακό γεύμα ή επαγγελματικό ραντεβού, η υπηρεσία κράτησης τραπεζιών μας σας συνδέει με κορυφαία εστιατόρια σε όλο το νησί. Απολαύστε ποικιλία γεύσεων, ιδανική ατμόσφαιρα και άμεσες κρατήσεις με λίγα μόνο κλικ.",
+      "href": "/services/restaurantBooking?lang=gr",
+      "icon": "🍽️",
+      "providers": [
+        "Gourmet Bistro",
+        "La Tavola",
+        "The Spicy Spoon",
+        "UrbanFeast",
+        "Tandoori Table"
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "title": "Путешествия и Туры",
+      "description": "Откройте для себя красоту Кипра с нашими профессиональными услугами Travels & Tours. Живописные пляжи, древние достопримечательности, уютные деревни и горные приключения — мы предлагаем индивидуальные туры, экскурсии с гидом и полную поддержку по всему острову. Исследуйте Кипр комфортно, безопасно и незабываемо.",
+      "href": "/services/travelsTours?lang=ru",
+      "icon": "🧭",
+      "providers": [
+        "Global Explorer Co.",
+        "Wanderlust Tours",
+        "Nomadic Paths",
+        "SkyHigh Adventures",
+        "Oceanic Journeys"
+      ]
+    },
+    {
+      "title": "Бронирование Отелей",
+      "description": "Найдите идеальное жильё на Кипре с нашей услугой бронирования отелей. Роскошные курорты, уютные бутик-отели и доступные варианты проживания — мы подберём и забронируем для вас лучшее место. Простое бронирование, выгодные цены и поддержка на каждом этапе — ваше пребывание на Кипре начинается с нами.",
+      "href": "/services/hotelReservation?lang=ru",
+      "icon": "🏨",
+      "providers": [
+        "StayWell Hotels",
+        "Royal Comfort Inns",
+        "Global Suites",
+        "City Central Hotel",
+        "Elite Stay Group"
+      ]
+    },
+    {
+      "title": "Аренда Авто",
+      "description": "Исследуйте Кипр в удобном для вас ритме с нашей надёжной услугой аренды автомобилей. Широкий выбор — от компактных машин до внедорожников — по доступным ценам. Для отдыха или работы: гибкие условия аренды, круглосуточная поддержка и удобные точки выдачи по всему острову.",
+      "href": "/services/carRentals?lang=ru",
+      "icon": "🚗",
+      "providers": [
+        "DriveNow Rentals",
+        "AutoFlex Ltd.",
+        "Zoomy Car Hire",
+        "RapidDrive Services",
+        "CityWheel Rent"
+      ]
+    },
+    {
+      "title": "Запись в салон красоты",
+      "description": "Забронируйте услуги салона красоты на Кипре быстро и удобно. Стрижки, укладки, маникюр, уход за лицом и спа — мы поможем вам найти лучшие салоны по всему острову. Профессиональный уход, гибкое расписание и расслабляющий бьюти-опыт — всего в нескольких кликах от вас.",
+      "href": "/services/beautySalonBooking?lang=ru",
+      "icon": "💇‍♀️",
+      "providers": [
+        "Luxe Beauty Lounge",
+        "Glamour Touch",
+        "Style & Shine Studio",
+        "UrbanGlow Salon",
+        "Bella Chic Spa"
+      ]
+    },
+    {
+      "title": "Заказ гида",
+      "description": "Откройте для себя скрытые сокровища Кипра с нашей услугой бронирования экскурсоводов. Интересуют ли вас исторические памятники, культурные маршруты или прогулки на природе — мы подберём для вас опытных местных гидов для незабываемых, познавательных и персонализированных экскурсий по всему острову.",
+      "href": "/services/tourGuideBooking?lang=ru",
+      "icon": "🗺️",
+      "providers": [
+        "ExploreMore Guides",
+        "CityPulse Tours",
+        "Heritage Walk Co.",
+        "WanderWise",
+        "EchoTrail Guides"
+      ]
+    },
+    {
+      "title": "Бронирование ресторана",
+      "description": "Забронируйте столик в лучших ресторанах Кипра легко и быстро. Планируете романтический ужин, семейный обед или деловую встречу? Наша служба бронирования ресторанов свяжет вас с высоко оценёнными заведениями по всему острову. Наслаждайтесь разнообразной кухней, приятной атмосферой и простым процессом бронирования.",
+      "href": "/services/restaurantBooking?lang=ru",
+      "icon": "🍽️",
+      "providers": [
+        "Gourmet Bistro",
+        "La Tavola",
+        "The Spicy Spoon",
+        "UrbanFeast",
+        "Tandoori Table"
+      ]
+    }
+  ]
+}
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+{
+  "en": {
+    "home": "Home",
+    "services": "Services",
+    "travelsTours": "Travels & Tours",
+    "hotelReservation": "Hotels Reservation",
+    "carRentals": "Cars Rentals",
+    "beautySalonBooking": "Beauty Salons Booking",
+    "tourGuideBooking": "Tour Guides Booking",
+    "restaurantBooking": "Restaurants Booking",
+    "blog": "Blog",
+    "contact": "Contact",
+    "about": "About Us",
+    "explore": "Explore Now",
+    "slogan": "All-in-One Travel & Leisure Hub - Book Hotels, Tours, Services, and Restaurant Tables.",
+    "title": {
+      "dream": "Dream",
+      "explore": "Explore",
+      "discover": "Discover"
+    }
+  },
+  "gr": {
+    "home": "Αρχική",
+    "services": "Υπηρεσίες",
+    "travelsTours": "Ταξίδια & Περιηγήσεις",
+    "hotelReservation": "Κράτηση Ξενοδοχείων",
+    "carRentals": "Ενοικιάσεις Αυτοκινήτων",
+    "beautySalonBooking": "Κράτηση Σαλόνι Ομορφιάς",
+    "tourGuideBooking": "Κράτηση Ξεναγού",
+    "restaurantBooking": "Κράτηση Εστιατορίων",
+    "blog": "Ιστολόγιο",
+    "contact": "Επικοινωνία",
+    "about": "Σχετικά με εμάς",
+    "explore": "Ανακαλύψτε Τώρα",
+    "slogan": "Το Απόλυτο Κέντρο Ταξιδιών & Αναψυχής - Κλείστε Ξενοδοχεία, Περιηγήσεις, Υπηρεσίες & Τραπέζι σε Εστιατόρια.",
+    "title": {
+      "dream": "Όνειρο",
+      "explore": "Εξερεύνηση",
+      "discover": "Ανακάλυψη"
+    }
+  },
+  "ru": {
+    "home": "Главная",
+    "services": "Услуги",
+    "travelsTours": "Путешествия и Туры",
+    "hotelReservation": "Бронирование Отелей",
+    "carRentals": "Аренда Автомобилей",
+    "beautySalonBooking": "Запись в Салон Красоты",
+    "tourGuideBooking": "Бронирование Гида",
+    "restaurantBooking": "Бронирование Ресторанов",
+    "blog": "Блог",
+    "contact": "Контакт",
+    "about": "О нас",
+    "explore": "Исследовать",
+    "slogan": "Универсальный Центр Путешествий и Отдыха — Бронируйте Отели, Туры, Услуги и Столы в Ресторанах.",
+    "title": {
+      "dream": "Мечтай",
+      "explore": "Исследуй",
+      "discover": "Открой"
+    }
+  }
+}
+

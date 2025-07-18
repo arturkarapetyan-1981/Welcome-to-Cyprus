@@ -41,7 +41,7 @@ export default function ServicesSection() {
       : 'Explore a wide range of services tailored for your convenience and comfort.';
 
   return (
-    <section className="w-full py-16 bg-[#028d96] select-none">
+    <section className="w-full py-16 bg-[var(--gradient)] select-none">
       <div className="max-w-7xl mx-auto px-4 text-center space-y-4">
         <h2 className="text-3xl md:text-4xl font-bold text-white">{sectionTitle}</h2>
         <p className="text-md md:text-lg text-white">{sectionDescription}</p>

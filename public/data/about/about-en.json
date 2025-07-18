@@ -1,0 +1,45 @@
+{
+  "heading": "About Us",
+  "intro": "Welcome to Welcome To Cyprus, founded in 2024 to make travel and lifestyle services easier and more accessible in Cyprus. Our platform helps you book flights, hotels, cars, and much more — all in one place.",
+  "services": [
+    {
+      "title": "Travels & Tours",
+      "description": "Book unforgettable tours across Cyprus and secure your flights in just a few clicks.",
+      "image": "/about/about-1.jpg"
+    },
+    {
+      "title": "Hotels Reservation",
+      "description": "Find and book the perfect hotel for your trip, tailored to your comfort and budget.",
+      "image": "/about/about-2.jpg"
+    },
+    {
+      "title": "Cars Rentals",
+      "description": "Rent cars of various sizes and types — from compact to luxury SUVs.",
+      "image": "/about/about-3.jpg"
+    },
+    {
+      "title": "Beauty Salons Booking",
+      "description": "Schedule appointments at top beauty salons before your arrival.",
+      "image": "/about/about-4.png"
+    },
+    {
+      "title": "Tour Guides Booking",
+      "description": "Hire certified local tour guides to explore Cyprus like a true insider.",
+      "image": "/about/about-5.jpg"
+    },
+    {
+      "title": "Restaurants Booking",
+      "description": "Reserve tables at your favorite restaurants in your preferred area and time.",
+      "image": "/about/about-6.jpg"
+    }
+  ],
+  "principlesTitle": "Our Principles",
+  "principles": [
+    "Organization: We connect all services into one seamless experience.",
+    "Responsibility: We prioritize your safety, comfort, and satisfaction.",
+    "Customer-Centric: Your needs drive our service improvements.",
+    "Transparency: Clear information, honest communication, no surprises.",
+    "Innovation: We constantly improve to bring you modern solutions."
+  ],
+  "outro": "Whether you’re planning a vacation, looking for local experiences, or making lifestyle reservations, Welcome To Cyprus is here to help you enjoy every moment."
+}

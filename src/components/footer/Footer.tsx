@@ -46,7 +46,7 @@ const Footer = () => {
   const t = translations;
 
   return (
-    <footer className="bg-[var(--mid-teal)] text-white py-10 mt-20">
+    <footer className="bg-[var(--gradient)] text-white py-10 mt-20">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Branding */}
         <div>

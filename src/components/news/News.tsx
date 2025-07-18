@@ -45,7 +45,7 @@ export default function News() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-4 select-none">
+    <div className="max-w-full mx-auto p-16 select-none bg-white">
       <h2 className="text-2xl font-bold mb-6 text-center">
         {language === 'gr'
           ? 'Ειδήσεις για τον Τουρισμό στην Κύπρο'

@@ -41,17 +41,17 @@ const AboutPage = () => {
   }, [searchParams]);
 
   if (!content) {
-    return <div className="text-center py-20 text-gray-600">Loading...</div>;
+    return <div className="text-center py-20 text-white">Loading...</div>;
   }
 
   return (
-    <main className="bg-gradient-to-b from-white via-blue-50 to-white text-gray-800 py-16 px-6 md:px-20">
+    <main className="bg-[var(--gradient)] text-white py-16 px-6 md:px-20 select-none">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-5xl font-bold mb-10 text-center text-primary drop-shadow-md">
+        <h1 className="text-5xl font-bold mb-10 text-center text-white drop-shadow-md">
           {content.heading}
         </h1>
 
-        <p className="text-lg mb-16 text-center max-w-3xl mx-auto text-gray-700">
+        <p className="text-lg mb-16 text-center max-w-3xl mx-auto text-white">
           {content.intro}
         </p>
 
@@ -69,7 +69,7 @@ const AboutPage = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-secondary mb-2">
+                <h3 className="text-xl font-semibold text-[var(--mid-teal)] mb-2">
                   {service.title}
                 </h3>
                 <p className="text-sm text-gray-600">{service.description}</p>
@@ -79,7 +79,7 @@ const AboutPage = () => {
         </section>
 
         <section className="bg-white p-10 rounded-2xl shadow-md mb-16">
-          <h2 className="text-2xl font-semibold text-secondary text-center mb-4">
+          <h2 className="text-2xl font-semibold text-[var(--mid-teal)] text-center mb-4">
             {content.principlesTitle}
           </h2>
           <ul className="list-disc pl-6 space-y-3 text-gray-700">
@@ -90,7 +90,7 @@ const AboutPage = () => {
         </section>
 
         <section className="text-center">
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          <p className="text-lg text-white max-w-3xl mx-auto">
             {content.outro}
           </p>
         </section>

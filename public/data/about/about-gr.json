@@ -5,32 +5,32 @@
     {
       "title": "Ταξίδια & Περιηγήσεις",
       "description": "Κλείστε αξέχαστες περιηγήσεις στην Κύπρο και εξασφαλίστε τα αεροπορικά σας εισιτήρια εύκολα.",
-      "image": "/images/services/travel.jpg"
+      "image": "/about/about-1.jpg"
     },
     {
       "title": "Κράτηση Ξενοδοχείων",
       "description": "Βρείτε και κάντε κράτηση στο κατάλληλο ξενοδοχείο ανάλογα με τις ανάγκες και τον προϋπολογισμό σας.",
-      "image": "/images/services/hotels.jpg"
+      "image": "/about/about-2.jpg"
     },
     {
       "title": "Ενοικιάσεις Αυτοκινήτων",
       "description": "Ενοικιάστε αυτοκίνητα κάθε τύπου — από οικονομικά έως πολυτελή SUV.",
-      "image": "/images/services/cars.jpg"
+      "image": "/about/about-3.jpg"
     },
     {
       "title": "Ραντεβού σε Κομμωτήρια",
       "description": "Κλείστε ραντεβού στα καλύτερα κομμωτήρια πριν φτάσετε.",
-      "image": "/images/services/beauty.jpg"
+      "image": "/about/about-4.png"
     },
     {
       "title": "Ξεναγήσεις",
       "description": "Προσλάβετε πιστοποιημένους ξεναγούς για να γνωρίσετε την Κύπρο σαν ντόπιος.",
-      "image": "/images/services/guides.jpg"
+      "image": "/about/about-5.jpg"
     },
     {
       "title": "Κράτηση Εστιατορίων",
       "description": "Κάντε κράτηση σε εστιατόρια στην περιοχή και την ώρα που προτιμάτε.",
-      "image": "/images/services/restaurants.jpg"
+      "image": "/about/about-6.jpg"
     }
   ],
   "principlesTitle": "Οι Αρχές μας",

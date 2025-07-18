@@ -5,32 +5,32 @@
     {
       "title": "Путешествия и Туры",
       "description": "Забронируйте незабываемые туры по Кипру и авиабилеты за несколько кликов.",
-      "image": "/images/services/travel.jpg"
+      "image": "/about/about-1.jpg"
     },
     {
       "title": "Бронирование Отелей",
       "description": "Найдите и забронируйте идеальный отель по удобной цене.",
-      "image": "/images/services/hotels.jpg"
+      "image": "/about/about-2.jpg"
     },
     {
       "title": "Аренда Автомобилей",
       "description": "Арендуйте автомобили любого класса — от эконом до премиум.",
-      "image": "/images/services/cars.jpg"
+      "image": "/about/about-3.jpg"
     },
     {
       "title": "Запись в Салоны Красоты",
       "description": "Запишитесь в лучшие салоны красоты заранее.",
-      "image": "/images/services/beauty.jpg"
+      "image": "/about/about-4.png"
     },
     {
       "title": "Услуги Гидов",
       "description": "Найдите профессионального гида и узнайте Кипр изнутри.",
-      "image": "/images/services/guides.jpg"
+      "image": "/about/about-5.jpg"
     },
     {
       "title": "Бронирование Ресторанов",
       "description": "Забронируйте столик в ресторане в нужное вам время и месте.",
-      "image": "/images/services/restaurants.jpg"
+      "image": "/about/about-6.jpg"
     }
   ],
   "principlesTitle": "Наши Принципы",

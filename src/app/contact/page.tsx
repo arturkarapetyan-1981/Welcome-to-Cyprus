@@ -71,7 +71,7 @@ export default function ContactPage() {
   return (
     <main className="max-h-screen bg-[var(--gradient)] p-6 md:p-12 select-none">
       <div className="max-w-2xl mx-auto bg-white shadow-xl rounded-2xl p-8 space-y-6">
-        <h1 className="text-3xl font-bold text-center text-[var(--mid-teal)]">{translations.title}</h1>
+        <h1 className="text-3xl font-bold text-center text-[var(--mid-teal)] drop-shadow-md">{translations.title}</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-gray-700 font-semibold mb-1">{translations.name}</label>
@@ -124,4 +124,5 @@ export default function ContactPage() {
     </main>
   );
 }
+
 

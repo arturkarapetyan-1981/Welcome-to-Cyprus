@@ -35,7 +35,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <div className="flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 lg:px-12 py-12 gap-8 select-none">
         <div className="text-white max-w-xl text-center lg:text-left">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight drop-shadow-md">
             {translations.title.dream} <span className="text-teal-400">|</span>{' '}
             {translations.title.explore} <span className="text-teal-400">|</span>{' '}
             {translations.title.discover}

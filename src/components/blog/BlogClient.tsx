@@ -78,7 +78,7 @@ export default function BlogClient() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10 select-none">
-      <h1 className="text-4xl font-bold text-center mb-8 text-white">
+      <h1 className="text-4xl font-bold text-center mb-8 text-white drop-shadow-md">
         {lang === 'en' && 'Blog'}
         {lang === 'gr' && 'Ιστολόγιο'}
         {lang === 'ru' && 'Блог'}

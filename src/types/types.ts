@@ -52,7 +52,6 @@ export interface NewsItem {
   title: string;
   text: string;
 }
-
 export interface FooterTranslation {
   title: string;
   description: string;

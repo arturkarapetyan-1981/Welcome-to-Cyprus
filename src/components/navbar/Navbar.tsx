@@ -98,22 +98,22 @@ function NavbarContent() {
                   : 'opacity-0 invisible pointer-events-none'
               }`}
             >
-              <Link href={buildHref('/services/travelsTours')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[#FFD700]">
+              <Link href={buildHref('/services/travelsTours')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[var(--orange)]">
                 {translations.travelsTours}
               </Link>
-              <Link href={buildHref('/services/hotelReservation')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[#FFD700]">
+              <Link href={buildHref('/services/hotelReservation')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[var(--orange)]">
                 {translations.hotelReservation}
               </Link>
-              <Link href={buildHref('/services/carRentals')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[#FFD700]">
+              <Link href={buildHref('/services/carRentals')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[var(--orange)]">
                 {translations.carRentals}
               </Link>
-              <Link href={buildHref('/services/beautySalonBooking')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[#FFD700]">
+              <Link href={buildHref('/services/beautySalonBooking')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[var(--orange)]">
                 {translations.beautySalonBooking}
               </Link>
-              <Link href={buildHref('/services/tourGuideBooking')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[#FFD700]">
+              <Link href={buildHref('/services/tourGuideBooking')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[var(--orange)]">
                 {translations.tourGuideBooking}
               </Link>
-              <Link href={buildHref('/services/restaurantBooking')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[#FFD700]">
+              <Link href={buildHref('/services/restaurantBooking')} className="block px-2 py-1 rounded hover:bg-teal-700 focus:text-[var(--orange)]">
                 {translations.restaurantBooking}
               </Link>
             </div>

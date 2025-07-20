@@ -1,9 +1,127 @@
-import React from 'react'
+'use client';
 
-const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
+import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
+import emailjs from '@emailjs/browser';
+
+interface TranslationData {
+  title: string;
+  name: string;
+  email: string;
+  message: string;
+  send: string;
+  sending: string;
+  success: string;
+  error: string;
 }
 
-export default Contact
+export default function ContactPage() {
+  const searchParams = useSearchParams();
+  const langParam = searchParams.get('lang');
+  const lang = ['en', 'gr', 'ru'].includes(langParam ?? '') ? langParam! : 'en';
+
+  const [translations, setTranslations] = useState<TranslationData | null>(null);
+  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
+
+  useEffect(() => {
+    fetch('/data/contact.json')
+      .then((res) => res.json())
+      .then((data) => {
+        setTranslations(data[lang]);
+      })
+      .catch((err) => {
+        console.error('Failed to load translation:', err);
+      });
+  }, [lang]);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus('loading');
+
+    try {
+      const result = await emailjs.send(
+        'service_denris1',
+        'template_tdyhtwd',
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+        },
+        'DgXamo5EQXLrWFE84'
+      );
+
+      console.log(result.text);
+      setForm({ name: '', email: '', message: '' });
+      setStatus('success');
+    } catch (error) {
+      console.error('Email send failed:', error);
+      setStatus('error');
+    }
+  };
+
+  if (!translations) {
+    return <p className="text-center p-4 text-white">Loading...</p>;
+  }
+
+  return (
+    <main className="max-h-screen bg-[var(--gradient)] p-6 md:p-12 select-none">
+      <div className="max-w-2xl mx-auto bg-white shadow-xl rounded-2xl p-8 space-y-6">
+        <h1 className="text-3xl font-bold text-center text-[var(--mid-teal)]">{translations.title}</h1>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <div>
+            <label className="block text-gray-700 font-semibold mb-1">{translations.name}</label>
+            <input
+              name="name"
+              type="text"
+              required
+              value={form.name}
+              onChange={handleChange}
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label className="block text-gray-700 font-semibold mb-1">{translations.email}</label>
+            <input
+              name="email"
+              type="email"
+              required
+              value={form.email}
+              onChange={handleChange}
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label className="block text-gray-700 font-semibold mb-1">{translations.message}</label>
+            <textarea
+              name="message"
+              rows={5}
+              required
+              value={form.message}
+              onChange={handleChange}
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <button
+            type="submit"
+            disabled={status === 'loading'}
+            className="w-full bg-[var(--mid-teal)] hover:bg-[var(--mid-teal-hover)] text-white font-bold py-2 rounded-lg transition duration-200 cursor-pointer"
+          >
+            {status === 'loading' ? translations.sending : translations.send}
+          </button>
+          {status === 'success' && (
+            <p className="text-green-600 font-medium text-center mt-2">{translations.success}</p>
+          )}
+          {status === 'error' && (
+            <p className="text-red-600 font-medium text-center mt-2">{translations.error}</p>
+          )}
+        </form>
+      </div>
+    </main>
+  );
+}
+

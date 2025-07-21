@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useSearchParams, usePathname } from 'next/navigation';
 import { useEffect, useState, Suspense } from 'react';
-import { FaUserCircle, FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { FiGlobe } from 'react-icons/fi';
 import { NavbarData } from '../../types/types';
 
@@ -46,6 +46,7 @@ function NavbarContent() {
           blog: selected.blog,
           contact: selected.contact,
           about: selected.about,
+          becomePartner: selected.becomePartner // ✅ Added
         });
       } catch (error) {
         console.error('Failed to load navbar translations:', error);
@@ -179,7 +180,7 @@ function NavbarContent() {
             className="hover:text-teal-500"
             onClick={handleLinkClick}
           >
-            <FaUserCircle size={20} />
+            {translations.becomePartner}
           </Link>
         </div>
 
@@ -244,7 +245,7 @@ function NavbarContent() {
           </Link>
 
           <Link href={buildHref('/profile')} onClick={handleLinkClick}>
-            <FaUserCircle size={24} />
+            {translations.becomePartner}
           </Link>
 
           <div className="flex space-x-3 mt-4 items-center">
@@ -282,5 +283,6 @@ export default function Navbar() {
     </Suspense>
   );
 }
+
 
 

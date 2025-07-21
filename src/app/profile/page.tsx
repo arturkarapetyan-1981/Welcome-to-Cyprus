@@ -1,9 +1,10 @@
-import React from 'react'
+import { Suspense } from 'react';
+import BecomePartner from '@/components/partner/BecomePartner';
 
-const Profile = () => {
+export default function Profile() {
   return (
-    <div>page</div>
-  )
+    <Suspense fallback={<div>Loading blog...</div>}>
+      <BecomePartner />
+    </Suspense>
+  );
 }
-
-export default Profile

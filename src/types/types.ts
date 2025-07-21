@@ -15,7 +15,7 @@ export type PageData = {
   title: TitleData;
 };
 
-export type NavbarData = {
+export interface NavbarData {
   home: string;
   services: string;
   travelsTours: string;
@@ -27,7 +27,8 @@ export type NavbarData = {
   blog: string;
   contact: string;
   about: string;
-};
+  becomePartner: string; 
+}
 
 export type Service = {
   title: string;

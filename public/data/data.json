@@ -13,6 +13,7 @@
     "about": "About Us",
     "explore": "Explore Now",
     "slogan": "All-in-One Travel & Leisure Hub - Book Hotels, Tours, Services, and Restaurant Tables.",
+    "becomePartner": "Become a Partner",
     "title": {
       "dream": "Dream",
       "explore": "Explore",
@@ -33,6 +34,7 @@
     "about": "Σχετικά με εμάς",
     "explore": "Ανακαλύψτε Τώρα",
     "slogan": "Το Απόλυτο Κέντρο Ταξιδιών & Αναψυχής - Κλείστε Ξενοδοχεία, Περιηγήσεις, Υπηρεσίες & Τραπέζι σε Εστιατόρια.",
+    "becomePartner": "Γίνε Συνεργάτης",
     "title": {
       "dream": "Όνειρο",
       "explore": "Εξερεύνηση",
@@ -53,6 +55,7 @@
     "about": "О нас",
     "explore": "Исследовать",
     "slogan": "Универсальный Центр Путешествий и Отдыха — Бронируйте Отели, Туры, Услуги и Столы в Ресторанах.",
+    "becomePartner": "Стать Партнером",
     "title": {
       "dream": "Мечтай",
       "explore": "Исследуй",
@@ -60,4 +63,5 @@
     }
   }
 }
+
 

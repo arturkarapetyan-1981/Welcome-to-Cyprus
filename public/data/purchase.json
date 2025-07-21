@@ -1,0 +1,35 @@
+{
+  "en": {
+    "title": "Choose Your Plan",
+    "monthly": "Monthly Plan",
+    "quarterly": "Quarterly Plan",
+    "annual": "Annual Plan",
+    "month": "1 Month",
+    "quarter": "3 Months",
+    "year": "12 Months",
+    "price": "€",
+    "purchase": "Purchase Package"
+  },
+  "gr": {
+    "title": "Επιλέξτε το πρόγραμμά σας",
+    "monthly": "Μηνιαίο Πλάνο",
+    "quarterly": "Τριμηνιαίο Πλάνο",
+    "annual": "Ετήσιο Πλάνο",
+    "month": "1 Μήνας",
+    "quarter": "3 Μήνες",
+    "year": "12 Μήνες",
+    "price": "€",
+    "purchase": "Αγορά Πακέτου"
+  },
+  "ru": {
+    "title": "Выберите ваш план",
+    "monthly": "Месячный план",
+    "quarterly": "Квартальный план",
+    "annual": "Годовой план",
+    "month": "1 месяц",
+    "quarter": "3 месяца",
+    "year": "12 месяцев",
+    "price": "€",
+    "purchase": "Купить пакет"
+  }
+}

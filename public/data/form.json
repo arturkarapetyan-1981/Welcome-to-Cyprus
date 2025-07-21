@@ -1,0 +1,44 @@
+{
+  "en": {
+    "title": "Cooperation request",
+    "organization": "Organization Name",
+    "field": "Field of Activity",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "telegram": "Telegram Username",
+    "message": "Please provide brief information about your company...",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "success": "Your form has been submitted successfully!",
+    "error": "There was an error submitting the form. Please try again."
+  },
+  "gr": {
+    "title": "Αίτημα συνεργασίας",
+    "organization": "Όνομα Οργανισμού",
+    "field": "Πεδίο Δραστηριότητας",
+    "phone": "Αριθμός Τηλεφώνου",
+    "email": "Διεύθυνση Email",
+    "telegram": "Όνομα χρήστη Telegram",
+    "message": "Παρακαλώ δώστε μια σύντομη περιγραφή της εταιρείας σας...",
+    "submit": "Υποβολή",
+    "sending": "Αποστολή...",
+    "success": "Η φόρμα σας υποβλήθηκε με επιτυχία!",
+    "error": "Παρουσιάστηκε σφάλμα κατά την υποβολή. Προσπαθήστε ξανά."
+  },
+  "ru": {
+    "title": "Запрос о сотрудничестве",
+    "organization": "Название организации",
+    "field": "Сфера деятельности",
+    "phone": "Номер телефона",
+    "email": "Адрес электронной почты",
+    "telegram": "Имя пользователя в Telegram",
+    "message": "Пожалуйста, дайте краткое описание вашей компании...",
+    "submit": "Отправить",
+    "sending": "Отправка...",
+    "success": "Ваша форма успешно отправлена!",
+    "error": "Произошла ошибка при отправке формы. Пожалуйста, попробуйте снова."
+  }
+}
+
+
+

@@ -1,10 +1,9 @@
-import RestaurantBookingClient from '@/components/pages/RestaurantBookingClient';
+import RestaurantList from '@/components/RestaurantList';
 
 export default function RestaurantBookingPage() {
   return (
     <div>
-      <h1>Book a Restaurant</h1>
-      <RestaurantBookingClient />
+      <RestaurantList />
     </div>
   );
 }

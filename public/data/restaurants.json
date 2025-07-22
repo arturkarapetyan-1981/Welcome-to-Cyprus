@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "name": "Pier One",
+    "shortDescription": "Pier One Limassol: Waterfront Dining & Vibrant Atmosphere",
+    "description": "Pier One Limassol is a chic seafront restaurant at the Old Port, offering Mediterranean cuisine, sushi, and signature cocktails. With stunning marina views, live DJ nights, and a vibrant atmosphere, it’s ideal for brunch, lunch, or evening drinks by the sea in a stylish and lively setting.",
+    "slug": "pier-one-limassol",
+    "image": "/restaurants/rest-1.jpg",
+    "city": "Limassol"
+  },
+  {
+    "id": 2,
+    "name": "Le Bordeaux",
+    "shortDescription": "Le Bordeaux: A Taste of France in the Heart of Cyprus",
+    "description": "Le Bordeaux restaurant brings authentic French cuisine to Cyprus with elegance and flair. Enjoy expertly prepared dishes, fine wines, and a charming ambiance inspired by Bordeaux's culinary tradition. Perfect for romantic dinners, celebrations, or refined dining experiences. A true French escape without leaving the island.",
+    "slug": "le-bordeaux-restaurant-cyprus",
+    "image": "/restaurants/rest-2.jpg",
+    "city": "Limassol"
+  },
+  {
+    "id": 3,
+    "name": "Sesoula Kalamaki",
+    "shortDescription": "Sesoula Kalamaki: Traditional Greek Grill in Ayia Napa",
+    "description": "Sesoula Kalamaki in Ayia Napa offers mouthwatering Greek souvlaki and grilled meats in a relaxed, authentic setting. Known for generous portions, friendly service, and homemade flavors, it's a must-visit for lovers of Greek cuisine. A local favorite for casual dining with the true taste of Greece.",
+    "slug": "sesoula-kalamaki-ayia-napa",
+    "image": "/restaurants/rest-3.jpg",
+    "city": "Ayia Napa"
+  },
+  {
+    "id": 4,
+    "name": "Opas Traditional Tavern",
+    "shortDescription": "Opas Traditional Tavern: Authentic Cypriot Dining in Ayia Napa",
+    "description": "Opas Traditional Tavern in Ayia Napa serves classic Cypriot dishes in a warm, rustic atmosphere. Enjoy meze feasts, grilled specialties, and local wines while experiencing live music and traditional hospitality. A perfect spot for a genuine island dining experience full of flavor, culture, and unforgettable moments.",
+    "slug": "opas-traditional-tavern-ayia-napa",
+    "image": "/restaurants/rest-4.jpg",
+    "city": "Ayia Napa"
+  },
+  {
+    "id": 5,
+    "name": "Los Mexicanos",
+    "shortDescription": "Los Mexicanos: Vibrant Mexican Flavors in Ayia Napa",
+    "description": "Los Mexicanos in Ayia Napa delivers bold Mexican cuisine with colorful flair. From sizzling fajitas to zesty tacos and refreshing margaritas, it's a festive spot full of energy and taste. Ideal for casual dinners or lively nights out, bringing a spicy twist to your Cyprus holiday.",
+    "slug": "los-mexicanos-ayia-napa",
+    "image": "/restaurants/rest-5.jpg",
+    "city": "Ayia Napa"
+  },
+  {
+    "id": 6,
+    "name": "Vinaria",
+    "shortDescription": "Vinaria Restaurant: Elegant Cypriot Dining in Larnaca",
+    "description": "Vinaria Restaurant in Larnaca offers refined Cypriot and Mediterranean cuisine crafted with local ingredients. Enjoy creative meze, fresh seafood, and premium wines in a stylish, inviting ambiance. Perfect for intimate dinners, special occasions, or a sophisticated night out discovering authentic island flavors with a modern twist.",
+    "slug": "vinaria-restaurant-larnaca",
+    "image": "/restaurants/rest-6.jpg",
+    "city": "Larnaca"
+  },
+  {
+    "id": 7,
+    "name": "Kaifu Sushi Bar",
+    "shortDescription": "Kaifu Sushi Bar: Premium Japanese Sushi in Ayia Napa",
+    "description": "Kaifu Sushi Bar in Ayia Napa delights sushi lovers with fresh, artfully crafted rolls, sashimi, and Japanese specialties. Experience refined, authentic flavors in a modern, stylish setting. Perfect for casual dinners, romantic dates, or sushi tastings with top-tier fish and attentive service. A culinary escape to Japan by the sea.",
+    "slug": "kaifu-sushi-bar-ayia-napa",
+    "image": "/restaurants/rest-7.jpg",
+    "city": "Ayia Napa"
+  },
+  {
+    "id": 8,
+    "name": "To Kazani Traditional Tavern",
+    "shortDescription": "To Kazani Traditional Tavern: Authentic Cypriot Hospitality in Larnaca",
+    "description": "To Kazani Traditional Tavern in Larnaca offers genuine Cypriot culinary delights in a welcoming, homey atmosphere. Savor hearty meze, grilled meats, and local delicacies using fresh ingredients and time‑honored recipes. Ideal for family dinners, festive gatherings, or cultural dining events that celebrate Cyprus’s rustic traditions.",
+    "slug": "to-kazani-traditional-tavern-larnaca",
+    "image": "/restaurants/rest-8.jpg",
+    "city": "Larnaca"
+  },
+  {
+    "id": 9,
+    "name": "To Anamma",
+    "shortDescription": "To Anámma Restaurant: Gourmet Cypriot Dining in Nicosia",
+    "description": "To Anámma Restaurant in Nicosia blends Cypriot culinary heritage with modern flair. Enjoy seasonal meze, inventive seafood creations, and locally sourced specialties in an elegant, contemporary setting. Perfect for romantic dinners, refined gatherings, or savouring island flavours with sophisticated style in Cyprus’s capital city.",
+    "slug": "to-anamma-restaurant-nicosia",
+    "image": "/restaurants/rest-9.jpg",
+    "city": "Nicosia"
+  },
+  {
+    "id": 10,
+    "name": "Piatsa Gourounaki",
+    "shortDescription": "Piatsa Gourounaki: Lively Greek Comfort Food in Nicosia",
+    "description": "Piatsa Gourounaki in Nicosia delivers vibrant Greek street‑food classics with a playful twist. Feast on crispy pork gyros, juicy souvlaki, dip‑worthy fries, and signature wraps bursting with flavor. With casual charm, friendly service, and bold tastes, it’s the perfect spot for a delicious, laid‑back Greek bite.",
+    "slug": "piatsa‑gourounaki-nicosia",
+    "image": "/restaurants/rest-10.jpg",
+    "city": "Nicosia"
+  },
+  {
+    "id": 11,
+    "name": "Elysian Restaurant",
+    "shortDescription": "Elysian Restaurant – Fine Dining in the Heart of Nicosia",
+    "description": "Elysian Restaurant in Nicosia offers a sophisticated dining experience, blending Mediterranean flavors with modern culinary techniques. Renowned for its elegant ambiance and exceptional service, it’s the perfect destination for romantic dinners, family gatherings, or corporate events. Enjoy premium wines and signature dishes crafted from the freshest local ingredients.",
+    "slug": "elysian-restaurant-nicosia",
+    "image": "/restaurants/rest-11.jpg",
+    "city": "Nicosia"
+  },
+  {
+    "id": 12,
+    "name": "Meze Taverna Restaurant",
+    "shortDescription": "Meze Taverna Restaurant – Authentic Cypriot Dining in Limassol",
+    "description": "Meze Taverna Restaurant in Limassol is celebrated for its traditional Cypriot hospitality and authentic flavors. Offering an extensive selection of meze dishes, freshly grilled meats, and local specialties, it provides a true taste of Cyprus. With a warm, rustic atmosphere, it’s perfect for family meals or gatherings with friends.",
+    "slug": "meze-taverna-restaurant-limassol",
+    "image": "/restaurants/rest-12.jpg",
+    "city": "Limassol"
+  },
+  {
+    "id": 13,
+    "name": "Panos Steak House",
+    "shortDescription": "Panos Steak House – Premium Steaks in Larnaca",
+    "description": "Panos Steak House in Larnaca is a top destination for meat lovers, offering expertly grilled premium steaks and a variety of international dishes. With a welcoming atmosphere, attentive service, and a menu crafted from the finest ingredients, it’s the ideal spot for family dinners, celebrations, and unforgettable dining experiences.",
+    "slug": "panos-steak-house-larnaca",
+    "image": "/restaurants/rest-13.jpg",
+    "city": "Larnaca"
+  },
+  {
+    "id": 14,
+    "name": "Jayanta Indian Restaurant",
+    "shortDescription": "Jayanta Indian Restaurant – Authentic Indian Cuisine in Paphos",
+    "description": "Jayanta Indian Restaurant in Paphos delivers a true taste of India with its rich, flavorful curries, tandoori dishes, and freshly baked naan. Known for its warm hospitality and vibrant atmosphere, it’s the perfect place to enjoy traditional Indian recipes crafted with aromatic spices and the finest ingredients.",
+    "slug": "jayanta-indian-restaurant-paphos",
+    "image": "/restaurants/rest-14.jpg",
+    "city": "Paphos"
+  },
+  {
+    "id": 15,
+    "name": "King's Restaurant",
+    "shortDescription": "King's Restaurant – Mediterranean & International Dining in Paphos",
+    "description": "King's Restaurant in Paphos offers a delightful fusion of Mediterranean and international cuisine, featuring fresh seafood, grilled meats, and vegetarian options. With its welcoming ambiance, attentive service, and a menu designed for all tastes, it’s an ideal spot for family dinners, casual meals, or special occasions in Paphos.",
+    "slug": "kings-restaurant-paphos",
+    "image": "/restaurants/rest-15.jpg",
+    "city": "Paphos"
+  },
+  {
+    "id": 16,
+    "name": "Veranda Italian Restaurant",
+    "shortDescription": "Veranda Italian Restaurant – Authentic Italian Dining in Paphos",
+    "description": "Veranda Italian Restaurant in Paphos captures the essence of Italy with its handmade pastas, wood-fired pizzas, and gourmet specialties. Offering a cozy ambiance with a touch of elegance, it’s perfect for romantic evenings, family gatherings, or casual dining. Enjoy traditional Italian flavors made from the freshest ingredients and fine wines.",
+    "slug": "veranda-italian-restaurant-paphos",
+    "image": "/restaurants/rest-16.jpg",
+    "city": "Protaras"
+  },
+  {
+    "id": 17,
+    "name": "Elia Restaurant Cyprus",
+    "shortDescription": "Elia Restaurant Cyprus – Modern Mediterranean Dining in Protaras",
+    "description": "Elia Restaurant in Protaras blends traditional Cypriot and Mediterranean flavors with contemporary flair. Located near Konnos Beach, it offers grilled seafood, creative meze, premium meats and inventive desserts in stylish indoor and outdoor settings. Highly praised for its refined ambiance, scenic setting, excellent service and exceptional value.",
+    "slug": "elia-restaurant-protaras",
+    "image": "/restaurants/rest-17.jpg",
+    "city": "Protaras"
+  },
+  {
+    "id": 18,
+    "name": "Nubila Rooftop Restaurant",
+    "shortDescription": "Nubila Rooftop Restaurant – Chic Rooftop Dining in Protaras",
+    "description": "Nubila Rooftop Restaurant in Protaras delivers a stylish rooftop dining experience near Fig Tree Bay. Serving premium steaks, seafood, creative Mediterranean‑fusion dishes and signature cocktails in a boho‑chic setting, it’s celebrated for its panoramic ambiance, generous portions and top‑notch service—perfect for sunset dinners or special nights out.",
+    "slug": "nubila-rooftop-restaurant-protaras",
+    "image": "/restaurants/rest-18.jpg",
+    "city": "Protaras"
+  },
+  {
+    "id": 19,
+    "name": "Tsiakkas Tavern",
+    "shortDescription": "Tsiakkas Tavern – Traditional Cypriot Seaside Dining in Paphos",
+    "description": "Nestled in Kissonerga near Coral Bay, Tsiakkas Tavern offers authentic Cypriot cuisine with spectacular sea views. Family-run since 1985, it’s renowned for its generous fish and meat meze platters, succulent grill specials, live weekends, and warm hospitality. Perfect for sunset dinners, gatherings, or memorable local flavor.",
+    "slug": "tsiakkas-tavern-paphos",
+    "image": "/restaurants/rest-19.jpg",
+    "city": "Paphos"
+  },
+  {
+    "id": 20,
+    "name": "Dionysus Mansion",
+    "shortDescription": "Dionysus Mansion – Fun & Gourmet Mediterranean Dining in Limassol",
+    "description": "Dionysus Mansion in Limassol artfully blends Mediterranean and Cypriot flavors in a stylish historic mansion with a lush garden courtyard. Led by Chef Dimitris Haidemenos and sommelier George Zacharoglou, the menu highlights handmade local dishes and a curated wine list. Ideal for romantic dinners, gatherings or special evenings.",
+    "slug": "dionysus-mansion-limassol",
+    "image": "/restaurants/rest-20.jpg",
+    "city": "Limassol"
+  }
+]
+

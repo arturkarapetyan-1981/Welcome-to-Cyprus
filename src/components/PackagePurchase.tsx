@@ -42,9 +42,9 @@ export default function PackagePurchase() {
   }
 
   const packages = [
-    { id: 'monthly', name: translations.monthly, price: 50, duration: translations.month },
-    { id: 'quarterly', name: translations.quarterly, price: 120, duration: translations.quarter },
-    { id: 'annual', name: translations.annual, price: 300, duration: translations.year },
+    { id: 'monthly', name: translations.monthly, price: 100, duration: translations.month },
+    { id: 'quarterly', name: translations.quarterly, price: 240, duration: translations.quarter },
+    { id: 'annual', name: translations.annual, price: 600, duration: translations.year },
   ];
 
   const handlePurchase = () => {

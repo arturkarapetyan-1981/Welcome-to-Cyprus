@@ -82,10 +82,10 @@ export default function RestaurantListClient() {
           <button
             key={city}
             onClick={() => setFilteredCity(city)}
-            className={`px-4 py-2 rounded-full border ${
+            className={`px-4 py-2 rounded-full border-none cursor-pointer ${
               filteredCity === city
                 ? 'bg-[var(--orange)] text-white'
-                : 'bg-gray-100 text-gray-800'
+                : 'bg-gray-100 text-[var(--mid-teal)]'
             } hover:bg-[var(--orange-hover)] transition`}
           >
             {city}

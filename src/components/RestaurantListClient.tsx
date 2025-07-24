@@ -38,12 +38,10 @@ export default function RestaurantListClient() {
 
   const cities = cityTranslations[lang];
 
-  // Reset city filter on language change
   useEffect(() => {
     setFilteredCity(cityTranslations[lang][0]);
   }, [lang]);
 
-  // Fetch restaurants data once
   useEffect(() => {
     const fetchRestaurants = async () => {
       try {
@@ -66,68 +64,85 @@ export default function RestaurantListClient() {
         );
 
   return (
-    <>
-      <h1 className="text-3xl font-bold text-center mb-8 text-white">
-        {lang === 'en' &&
-          'Reserve your table in your preferred section of the restaurant and time and enjoy your day.'}
-        {lang === 'gr' &&
-          'Κλείστε τραπέζι στο αγαπημένο σας σημείο και ώρα και απολαύστε την ημέρα σας.'}
-        {lang === 'ru' &&
-          'Забронируйте столик в удобной зоне ресторана и наслаждайтесь днем.'}
-      </h1>
+    <div className="relative min-h-screen w-full overflow-hidden">
+      {/* Fullscreen Video Background */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="fixed top-0 left-0 w-full h-full object-cover -z-10"
+      >
+        <source src="/booking-5.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-      {/* City Filter Buttons */}
-      <div className="flex flex-wrap gap-2 justify-center mb-6">
-        {cities.map((city) => (
-          <button
-            key={city}
-            onClick={() => setFilteredCity(city)}
-            className={`px-4 py-2 rounded-full border-none cursor-pointer ${
-              filteredCity === city
-                ? 'bg-[var(--orange)] text-white'
-                : 'bg-gray-100 text-[var(--mid-teal)]'
-            } hover:bg-[var(--orange-hover)] transition`}
-          >
-            {city}
-          </button>
-        ))}
-      </div>
+      {/* Content Overlay */}
+      <div className="relative z-10 bg-black/60 text-white min-h-screen px-4 py-20">
+        {/* Title */}
+        <h1 className="text-3xl font-bold text-center mb-8">
+          {lang === 'en' &&
+            'Reserve your table in your preferred section of the restaurant and time and enjoy your day.'}
+          {lang === 'gr' &&
+            'Κλείστε τραπέζι στο αγαπημένο σας σημείο και ώρα και απολαύστε την ημέρα σας.'}
+          {lang === 'ru' &&
+            'Забронируйте столик в удобной зоне ресторана и наслаждайтесь днем.'}
+        </h1>
 
-      {/* Restaurant Cards Grid */}
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        {filteredRestaurants.map((restaurant) => {
-          const translation =
-            restaurant.translations?.[lang] || restaurant.translations?.en;
-          if (!translation) return null;
-
-          return (
-            <div
-              key={restaurant.id}
-              className="bg-white shadow rounded-2xl p-4 flex flex-col justify-between hover:shadow-lg transition"
+        {/* Filter Buttons */}
+        <div className="flex flex-wrap gap-2 justify-center mb-10">
+          {cities.map((city) => (
+            <button
+              key={city}
+              onClick={() => setFilteredCity(city)}
+              className={`px-4 py-2 rounded-full border-none cursor-pointer ${
+                filteredCity === city
+                  ? 'bg-[var(--orange)] text-white'
+                  : 'bg-gray-100 text-[var(--mid-teal)]'
+              } hover:bg-[var(--orange-hover)] transition`}
             >
-              <Image
-                width={400}
-                height={300}
-                src={restaurant.image}
-                alt={translation.name}
-                loading="lazy"
-                className="w-full h-48 object-cover rounded-xl mb-4"
-              />
-              <h2 className="text-xl font-semibold mb-2">{translation.name}</h2>
-              <p className="text-gray-600 mb-2">{translation.shortDescription}</p>
-              <p className="text-gray-500 text-sm mb-4">{translation.description}</p>
-              <Link
-                href={`/restaurants/${restaurant.slug}?lang=${lang}`}
-                className="mt-auto bg-[var(--orange)] text-white text-center py-2 rounded-xl hover:bg-[var(--orange-hover)] transition"
+              {city}
+            </button>
+          ))}
+        </div>
+
+        {/* Restaurant Cards */}
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+          {filteredRestaurants.map((restaurant) => {
+            const translation =
+              restaurant.translations?.[lang] || restaurant.translations?.en;
+            if (!translation) return null;
+
+            return (
+              <div
+                key={restaurant.id}
+                className="bg-white text-black shadow rounded-2xl p-4 flex flex-col justify-between hover:shadow-lg transition"
               >
-                {lang === 'en' && 'Book a Table'}
-                {lang === 'gr' && 'Κράτηση Τραπεζιού'}
-                {lang === 'ru' && 'Забронировать столик'}
-              </Link>
-            </div>
-          );
-        })}
+                <Image
+                  width={400}
+                  height={300}
+                  src={restaurant.image}
+                  alt={translation.name}
+                  loading="lazy"
+                  className="w-full h-48 object-cover rounded-xl mb-4"
+                />
+                <h2 className="text-xl font-semibold mb-2">{translation.name}</h2>
+                <p className="text-gray-600 mb-2">{translation.shortDescription}</p>
+                <p className="text-gray-500 text-sm mb-4">{translation.description}</p>
+                <Link
+                  href={`/restaurants/${restaurant.slug}?lang=${lang}`}
+                  className="mt-auto bg-[var(--orange)] text-white text-center py-2 rounded-xl hover:bg-[var(--orange-hover)] transition"
+                >
+                  {lang === 'en' && 'Book a Table'}
+                  {lang === 'gr' && 'Κράτηση Τραπεζιού'}
+                  {lang === 'ru' && 'Забронировать столик'}
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </>
+    </div>
   );
 }
+

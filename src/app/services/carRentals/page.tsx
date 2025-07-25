@@ -1,12 +1,15 @@
-import CarRentalsClient from '@/components/pages/CarRentalsClient';
+import React from 'react';
+import CarRentalListClient from '@/components/CarRentalListClient';
 
-export default function CarRentalsPage() {
+export default function CarRentalPage() {
   return (
-    <div>
-      <h1>Car Rentals</h1>
-      <CarRentalsClient />
-    </div>
+    <main className="max-w-6xl mx-auto px-4 py-8">
+      <React.Suspense fallback={<p>Loading cars...</p>}>
+        <CarRentalListClient />
+      </React.Suspense>
+    </main>
   );
 }
+
 
 

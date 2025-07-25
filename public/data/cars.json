@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "slug": "toyota-corolla-2023",
+    "image": "/cars/car-1.jpg",
+    "brand": "Toyota",
+    "translations": {
+      "en": {
+        "name": "Toyota Corolla 2023",
+        "shortDescription": "Reliable and fuel-efficient sedan",
+        "description": "Ideal for family trips or business travel, with great comfort and fuel economy."
+      },
+      "gr": {
+        "name": "Toyota Corolla 2023",
+        "shortDescription": "Αξιόπιστο και οικονομικό σεντάν",
+        "description": "Ιδανικό για οικογενειακά ταξίδια ή επαγγελματικά ταξίδια, με άνεση και οικονομία καυσίμου."
+      },
+      "ru": {
+        "name": "Toyota Corolla 2023",
+        "shortDescription": "Надежный и экономичный седан",
+        "description": "Идеально подходит для семейных поездок или командировок, с комфортом и экономией топлива."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "slug": "bmw-x3-2025",
+    "image": "/cars/car-2.jpg",
+    "brand": "BMW",
+    "translations": {
+      "en": {
+        "name": "BMW X3 2025",
+        "shortDescription": "Luxury SUV with premium features",
+        "description": "A powerful and elegant vehicle for those who want both performance and style."
+      },
+      "gr": {
+        "name": "BMW X3 2025",
+        "shortDescription": "Πολυτελές SUV με κορυφαία χαρακτηριστικά",
+        "description": "Ένα ισχυρό και κομψό όχημα για όσους θέλουν απόδοση και στυλ."
+      },
+      "ru": {
+        "name": "BMW X3 2025",
+        "shortDescription": "Роскошный внедорожник с премиальными функциями",
+        "description": "Мощный и элегантный автомобиль для тех, кто ценит стиль и производительность."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "slug": "nissan-juke-2024",
+    "image": "/cars/car-3.jpg",
+    "brand": "Nissan",
+    "translations": {
+      "en": {
+        "name": "Nissan Juke 2024",
+        "shortDescription": "Compact crossover with style",
+        "description": "Perfect for urban driving with a bold design and modern technology."
+      },
+      "gr": {
+        "name": "Nissan Juke 2024",
+        "shortDescription": "Κομψό crossover με στυλ",
+        "description": "Ιδανικό για αστική οδήγηση με τολμηρό σχεδιασμό και σύγχρονη τεχνολογία."
+      },
+      "ru": {
+        "name": "Nissan Juke 2024",
+        "shortDescription": "Компактный кроссовер со стилем",
+        "description": "Отличный выбор для города с ярким дизайном и современной начинкой."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "slug": "kia-sportage-2023",
+    "image": "/cars/car-4.jpg",
+    "brand": "Kia",
+    "translations": {
+      "en": {
+        "name": "Kia Sportage 2023",
+        "shortDescription": "Spacious and stylish SUV",
+        "description": "Combines comfort, technology, and performance in a bold package."
+      },
+      "gr": {
+        "name": "Kia Sportage 2023",
+        "shortDescription": "Ευρύχωρο και κομψό SUV",
+        "description": "Συνδυάζει άνεση, τεχνολογία και απόδοση σε μια εντυπωσιακή πρόταση."
+      },
+      "ru": {
+        "name": "Kia Sportage 2023",
+        "shortDescription": "Просторный и стильный внедорожник",
+        "description": "Сочетает комфорт, технологии и производительность в одном автомобиле."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "slug": "audi-a3-2024",
+    "image": "/cars/car-5.jpg",
+    "brand": "Audi",
+    "translations": {
+      "en": {
+        "name": "Audi A3 2024",
+        "shortDescription": "Compact luxury sedan",
+        "description": "Experience premium comfort and dynamic driving in this refined car."
+      },
+      "gr": {
+        "name": "Audi A3 2024",
+        "shortDescription": "Πολυτελές συμπαγές σεντάν",
+        "description": "Απολαύστε κορυφαία άνεση και δυναμική οδήγηση σε ένα εκλεπτυσμένο όχημα."
+      },
+      "ru": {
+        "name": "Audi A3 2024",
+        "shortDescription": "Компактный люксовый седан",
+        "description": "Комфорт и динамика в элегантной и современной упаковке."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "slug": "toyota-yaris-2023",
+    "image": "/cars/car-6.jpg",
+    "brand": "Toyota",
+    "translations": {
+      "en": {
+        "name": "Toyota Yaris 2023",
+        "shortDescription": "Economical city car",
+        "description": "Ideal for short trips and city navigation with minimal fuel consumption."
+      },
+      "gr": {
+        "name": "Toyota Yaris 2023",
+        "shortDescription": "Οικονομικό αυτοκίνητο πόλης",
+        "description": "Ιδανικό για μικρές διαδρομές και μετακινήσεις στην πόλη με χαμηλή κατανάλωση."
+      },
+      "ru": {
+        "name": "Toyota Yaris 2023",
+        "shortDescription": "Экономичный городской автомобиль",
+        "description": "Отличен для коротких поездок и городского вождения с минимальным расходом топлива."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "slug": "bmw-5-series-2025",
+    "image": "/cars/car-7.jpg",
+    "brand": "BMW",
+    "translations": {
+      "en": {
+        "name": "BMW 5 Series 2025",
+        "shortDescription": "Executive sedan",
+        "description": "Luxury and performance for business-class travel."
+      },
+      "gr": {
+        "name": "BMW 5 Series 2025",
+        "shortDescription": "Επαγγελματικό σεντάν",
+        "description": "Πολυτέλεια και απόδοση για επαγγελματικά ταξίδια."
+      },
+      "ru": {
+        "name": "BMW 5 Series 2025",
+        "shortDescription": "Представительский седан",
+        "description": "Роскошь и производительность для деловых поездок."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "slug": "audi-q7-2024",
+    "image": "/cars/car-8.jpg",
+    "brand": "Audi",
+    "translations": {
+      "en": {
+        "name": "Audi Q7 2024",
+        "shortDescription": "Luxury 7-seater SUV",
+        "description": "Spacious and technologically advanced for family or group travel."
+      },
+      "gr": {
+        "name": "Audi Q7 2024",
+        "shortDescription": "Πολυτελές SUV 7 θέσεων",
+        "description": "Ευρύχωρο και προηγμένο τεχνολογικά για οικογένειες ή ομάδες."
+      },
+      "ru": {
+        "name": "Audi Q7 2024",
+        "shortDescription": "Роскошный внедорожник на 7 мест",
+        "description": "Просторный и высокотехнологичный автомобиль для семейных поездок."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "slug": "kia-rio-2023",
+    "image": "/cars/car-9.jpg",
+    "brand": "Kia",
+    "translations": {
+      "en": {
+        "name": "Kia Rio 2023",
+        "shortDescription": "Affordable and reliable",
+        "description": "Compact sedan with great value and everyday usability."
+      },
+      "gr": {
+        "name": "Kia Rio 2023",
+        "shortDescription": "Προσιτό και αξιόπιστο",
+        "description": "Συμπαγές σεντάν με εξαιρετική σχέση τιμής και καθημερινή πρακτικότητα."
+      },
+      "ru": {
+        "name": "Kia Rio 2023",
+        "shortDescription": "Доступный и надежный",
+        "description": "Компактный седан с отличным соотношением цены и удобством."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "slug": "nissan-x-trail-2024",
+    "image": "/cars/car-10.jpg",
+    "brand": "Nissan",
+    "translations": {
+      "en": {
+        "name": "Nissan X-Trail 2024",
+        "shortDescription": "Adventure-ready SUV",
+        "description": "Designed for both city comfort and off-road capability."
+      },
+      "gr": {
+        "name": "Nissan X-Trail 2024",
+        "shortDescription": "SUV για περιπέτειες",
+        "description": "Σχεδιασμένο για άνεση στην πόλη και δυνατότητες εκτός δρόμου."
+      },
+      "ru": {
+        "name": "Nissan X-Trail 2024",
+        "shortDescription": "Внедорожник для приключений",
+        "description": "Комфортен в городе и способен к бездорожью."
+      }
+    }
+  },
+  {
+    "id": 11,
+    "slug": "mercedes-benz-c-class-2024",
+    "image": "/cars/car-11.jpg",
+    "brand": "Mercedes-Benz",
+    "translations": {
+      "en": {
+        "name": "Mercedes-Benz C-Class 2024",
+        "shortDescription": "Refined and tech-savvy sedan",
+        "description": "Premium comfort, cutting-edge technology, and dynamic driving experience."
+      },
+      "gr": {
+        "name": "Mercedes-Benz C-Class 2024",
+        "shortDescription": "Εκλεπτυσμένο και τεχνολογικά προηγμένο σεντάν",
+        "description": "Προσφέρει πολυτέλεια, τεχνολογία αιχμής και δυναμική οδήγηση."
+      },
+      "ru": {
+        "name": "Mercedes-Benz C-Class 2024",
+        "shortDescription": "Элегантный и технологичный седан",
+        "description": "Комфорт, передовые технологии и динамика в одном авто."
+      }
+    }
+  },
+  {
+    "id": 12,
+    "slug": "hyundai-tucson-2024",
+    "image": "/cars/car-12.jpg",
+    "brand": "Hyundai",
+    "translations": {
+      "en": {
+        "name": "Hyundai Tucson 2024",
+        "shortDescription": "Modern and reliable SUV",
+        "description": "Stylish design and advanced safety features for everyday driving."
+      },
+      "gr": {
+        "name": "Hyundai Tucson 2024",
+        "shortDescription": "Σύγχρονο και αξιόπιστο SUV",
+        "description": "Κομψός σχεδιασμός και προηγμένα χαρακτηριστικά ασφαλείας για καθημερινή χρήση."
+      },
+      "ru": {
+        "name": "Hyundai Tucson 2024",
+        "shortDescription": "Современный и надежный внедорожник",
+        "description": "Стильный внешний вид и передовые системы безопасности."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "slug": "peugeot-208-2024",
+    "image": "/cars/car-13.jpg",
+    "brand": "Peugeot",
+    "translations": {
+      "en": {
+        "name": "Peugeot 208 2024",
+        "shortDescription": "Chic and efficient hatchback",
+        "description": "Urban agility with a premium look and low running costs."
+      },
+      "gr": {
+        "name": "Peugeot 208 2024",
+        "shortDescription": "Κομψό και αποδοτικό hatchback",
+        "description": "Αστική ευελιξία με premium εμφάνιση και χαμηλό κόστος χρήσης."
+      },
+      "ru": {
+        "name": "Peugeot 208 2024",
+        "shortDescription": "Стильный и экономичный хэтчбек",
+        "description": "Идеален для города — красивый и экономичный."
+      }
+    }
+  },
+  {
+    "id": 14,
+    "slug": "volkswagen-tiguan-2025",
+    "image": "/cars/car-14.jpg",
+    "brand": "Volkswagen",
+    "translations": {
+      "en": {
+        "name": "Volkswagen Tiguan 2025",
+        "shortDescription": "Versatile family SUV",
+        "description": "Spacious, safe, and practical for every journey."
+      },
+      "gr": {
+        "name": "Volkswagen Tiguan 2025",
+        "shortDescription": "Πολυχρηστικό οικογενειακό SUV",
+        "description": "Ευρύχωρο, ασφαλές και πρακτικό για κάθε διαδρομή."
+      },
+      "ru": {
+        "name": "Volkswagen Tiguan 2025",
+        "shortDescription": "Универсальный семейный внедорожник",
+        "description": "Просторный и безопасный выбор для всей семьи."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "slug": "honda-civic-2024",
+    "image": "/cars/car-15.jpg",
+    "brand": "Honda",
+    "translations": {
+      "en": {
+        "name": "Honda Civic 2024",
+        "shortDescription": "Sporty and efficient",
+        "description": "A sleek design combined with performance and fuel efficiency."
+      },
+      "gr": {
+        "name": "Honda Civic 2024",
+        "shortDescription": "Σπορ και αποδοτικό",
+        "description": "Κομψός σχεδιασμός με απόδοση και οικονομία καυσίμου."
+      },
+      "ru": {
+        "name": "Honda Civic 2024",
+        "shortDescription": "Спортивный и экономичный",
+        "description": "Элегантный дизайн, производительность и экономия топлива."
+      }
+    }
+  },
+  {
+    "id": 16,
+    "slug": "skoda-kodiaq-2024",
+    "image": "/cars/car-16.jpg",
+    "brand": "Škoda",
+    "translations": {
+      "en": {
+        "name": "Škoda Kodiaq 2024",
+        "shortDescription": "Spacious 7-seater SUV",
+        "description": "Great for families needing space, comfort, and safety."
+      },
+      "gr": {
+        "name": "Škoda Kodiaq 2024",
+        "shortDescription": "Ευρύχωρο SUV 7 θέσεων",
+        "description": "Ιδανικό για οικογένειες με έμφαση στην άνεση και την ασφάλεια."
+      },
+      "ru": {
+        "name": "Škoda Kodiaq 2024",
+        "shortDescription": "Просторный внедорожник на 7 мест",
+        "description": "Идеален для больших семей с комфортом и безопасностью."
+      }
+    }
+  },
+  {
+    "id": 17,
+    "slug": "ford-focus-2023",
+    "image": "/cars/car-17.jpg",
+    "brand": "Ford",
+    "translations": {
+      "en": {
+        "name": "Ford Focus 2023",
+        "shortDescription": "Smart and agile compact",
+        "description": "Combines intelligent features with sharp handling and style."
+      },
+      "gr": {
+        "name": "Ford Focus 2023",
+        "shortDescription": "Έξυπνο και ευέλικτο compact",
+        "description": "Συνδυάζει έξυπνες λειτουργίες με ευκολία στην οδήγηση και στυλ."
+      },
+      "ru": {
+        "name": "Ford Focus 2023",
+        "shortDescription": "Умный и маневренный компакт",
+        "description": "Интеллектуальные функции и стильная управляемость."
+      }
+    }
+  },
+  {
+    "id": 18,
+    "slug": "mazda-cx-5-2024",
+    "image": "/cars/car-18.jpg",
+    "brand": "Mazda",
+    "translations": {
+      "en": {
+        "name": "Mazda CX-5 2024",
+        "shortDescription": "Stylish and responsive SUV",
+        "description": "Offers engaging driving experience with upscale interiors."
+      },
+      "gr": {
+        "name": "Mazda CX-5 2024",
+        "shortDescription": "Κομψό και ευέλικτο SUV",
+        "description": "Προσφέρει απολαυστική οδήγηση και ποιοτικό εσωτερικό."
+      },
+      "ru": {
+        "name": "Mazda CX-5 2024",
+        "shortDescription": "Стильный и отзывчивый внедорожник",
+        "description": "Комфортное вождение и премиум-интерьер."
+      }
+    }
+  },
+  {
+    "id": 19,
+    "slug": "renault-clio-2024",
+    "image": "/cars/car-19.jpg",
+    "brand": "Renault",
+    "translations": {
+      "en": {
+        "name": "Renault Clio 2024",
+        "shortDescription": "Popular compact hatchback",
+        "description": "Ideal for city life with charm, efficiency, and modern features."
+      },
+      "gr": {
+        "name": "Renault Clio 2024",
+        "shortDescription": "Δημοφιλές compact hatchback",
+        "description": "Ιδανικό για την πόλη με στυλ, οικονομία και σύγχρονες λειτουργίες."
+      },
+      "ru": {
+        "name": "Renault Clio 2024",
+        "shortDescription": "Популярный компактный хэтчбек",
+        "description": "Идеален для города с привлекательным дизайном и современными функциями."
+      }
+    }
+  },
+  {
+    "id": 20,
+    "slug": "jeep-compass-2024",
+    "image": "/cars/car-20.jpg",
+    "brand": "Jeep",
+    "translations": {
+      "en": {
+        "name": "Jeep Compass 2024",
+        "shortDescription": "Compact SUV with adventure spirit",
+        "description": "Blends city comfort with off-road capability and rugged style."
+      },
+      "gr": {
+        "name": "Jeep Compass 2024",
+        "shortDescription": "Compact SUV με πνεύμα περιπέτειας",
+        "description": "Συνδυάζει άνεση πόλης με εκτός δρόμου δυνατότητες και στιβαρό στυλ."
+      },
+      "ru": {
+        "name": "Jeep Compass 2024",
+        "shortDescription": "Компактный внедорожник для приключений",
+        "description": "Сочетает комфорт в городе с возможностями для бездорожья."
+      }
+    }
+  },
+  {
+  "id": 21,
+  "slug": "volvo-xc60-2025",
+  "image": "/cars/car-21.jpg",
+  "brand": "Volvo",
+  "translations": {
+    "en": {
+      "name": "Volvo XC60 2025",
+      "shortDescription": "Safe and elegant mid-size SUV",
+      "description": "Combines Scandinavian design with top-tier safety and hybrid efficiency."
+    },
+    "gr": {
+      "name": "Volvo XC60 2025",
+      "shortDescription": "Ασφαλές και κομψό μεσαίου μεγέθους SUV",
+      "description": "Συνδυάζει σκανδιναβικό σχεδιασμό με κορυφαία ασφάλεια και υβριδική απόδοση."
+    },
+    "ru": {
+      "name": "Volvo XC60 2025",
+      "shortDescription": "Безопасный и элегантный кроссовер",
+      "description": "Скандинавский дизайн, высочайшая безопасность и гибридная эффективность."
+    }
+  }
+  }
+
+]
+
+
